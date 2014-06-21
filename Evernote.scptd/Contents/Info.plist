@@ -19,11 +19,11 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>333</real>
+		<real>419</real>
 		<key>savedFrame</key>
-		<string>388 357 602 582 0 0 1920 1058 </string>
+		<string>456 271 916 716 0 0 1920 1058 </string>
 		<key>selectedTabView</key>
-		<string>result</string>
+		<string>event log</string>
 	</dict>
 </dict>
 </plist>
