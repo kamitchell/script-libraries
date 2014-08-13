@@ -23,7 +23,7 @@ def highlight(html):
                                                               noclasses=True
                                                               )
                 code_hl = pygments.highlight(code, lexer, formatter)
-                block.parent.replace_with(BeautifulSoup(code_hl))
+                block.parent.replace_with(BeautifulSoup(code_hl).div)
             except:
                 raise
     return soup.decode(formatter='html')
